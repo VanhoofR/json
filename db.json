@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "name": "Admin Admi",
+      "adress": "ergens 64",
+      "postcode": "2440",
+      "email": "admin@mail.com",
+      "password": "$2a$10$NcqZhDfM.h/Knlasn5djT.e514sqotWmUsBYdq/AfoQGZtRTfiY72",
+      "id": 1,
+      "roleId": 1
+    },
+    {
+      "email": "test@mail.com",
+      "password": "$2a$10$NcqZhDfM.h/Knlasn5djT.e514sqotWmUsBYdq/AfoQGZtRTfiY72",
+      "id": 2,
+      "roleId": 3
+    },
+    {
+      "email": "regisetreer@test.com",
+      "password": "$2a$10$E/xRz1a.SDEsJ1YyKSF4WelH52YUxjJJDW4yZv/mkw74Mc5ZdWMjq",
+      "id": 3,
+      "name": "subtle flexing",
+      "adress": "kleinhoofstraat 14",
+      "postcode": "2440",
+      "confirmPassword": "",
+      "token": "",
+      "roleId": 3
+    },
+    {
+      "email": "registreer@test.com",
+      "password": "$2a$10$gOZ9VBK4fpLrlUiLW2GPl.4s5AApwf9ek3qTjw.pyIeozPcSnvYNm",
+      "id": 4,
+      "name": "test test",
+      "adress": "kleinhoofstraat 14",
+      "postcode": "2440",
+      "roleId": 3
+    },
+    {
+      "email": "adminee@mail.com",
+      "password": "$2a$10$k6rxbSN.JbTVoFYOXm262OwW8EPGdEb7BrReogfEYFzDf8k1cgkbu",
+      "id": 5,
+      "name": "subtle flexing",
+      "adress": "kleinhoofstraat 14",
+      "postcode": "2440",
+      "roleId": 3
+    }
+  ],
+  "producten": [
+    {
+      "id": 1,
+      "naam": "Long Energy Drink",
+      "prijs": 9.95,
+      "beschrijving": "LONG ENERGY - COMPETITION® & REGENERATION FORMULA is a high quality sport drink with 79% of carbohydrates and 10% of protein in form of protein hydrolysates. The combination of various kinds of sugar with different glycemic index delivers energy for long endurance performances.",
+      "isActief": true,
+      "aantalInStock": 5,
+      "foto": "https://www.sportvoedingwebshop.com/media/image/47/36/51/sportvoedingwebshop_long_energy_drink.png",
+      "productqty": 1
+    },
+    {
+      "id": 2,
+      "foodId": 3,
+      "naam": "Sportburger",
+      "prijs": 2.5,
+      "beschrijving": "Lekkere burger :p",
+      "isActief": true,
+      "aantalInStock": 5,
+      "foto": "https://www.simpleskincare.com/sk-eu/content/dam/brands/the_vegetarian_butcher/global_use/2044403-vegetarische-mc2-burger.png",
+      "productqty": 1
+    },
+    {
+      "id": 3,
+      "foodId": 0,
+      "naam": "Gel drink",
+      "prijs": 5,
+      "beschrijving": "Gel drink",
+      "isActief": false,
+      "aantalInStock": 5,
+      "foto": "https://www.sportvoedingwebshop.com/media/image/f8/60/a9/sportvoedingwebshop_gel_drink_orange.png",
+      "productqty": 2
+    }
+  ],
+  "orderProduct": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "productId": 3,
+      "aantal": 5
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "userId": 1,
+      "statusId": 1
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "naam": "Superadmin"
+    },
+    {
+      "id": 2,
+      "naam": "Admin"
+    },
+    {
+      "id": 3,
+      "naam": "Gebruiker"
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "naam": "inWinkelWagen"
+    },
+    {
+      "id": 2,
+      "naam": "betaald"
+    }
+  ]
+}
